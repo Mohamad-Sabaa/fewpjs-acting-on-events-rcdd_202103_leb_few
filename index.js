@@ -7,7 +7,7 @@ function moveDodgerLeft() {
     let left = parseInt(leftNumbers, 10);
     left > 0;
     dodger.style.left = `${left - 1}px`;
-    
+
   } else if (e.key === "ArrowRight") {
     dodger.style.left = `${left + 1}px`;
   }

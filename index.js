@@ -27,3 +27,27 @@ document.addEventListener("keydown", function(e) {
     moveDodgerLeft();
   }
 });
+
+function moveDodgerRight() {
+  let dodger = document.getElementById("dodger");
+  let rightNumber = dodger.style.right.replace("px", "");
+  let right = parseInt(rightNumber, 10);
+}
+if(right > 180) {
+  dodger.style.right = `${left + 1}px`;
+}
+document.addEventListener("keydown", function(e) {
+  if (e.key === "ArrowRight") {
+    moveDodgerRight();
+  }
+});
+
+
+
+
+
+
+
+
+
+

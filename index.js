@@ -34,7 +34,7 @@ function moveDodgerRight() {
   let right = parseInt(rightNumber, 10);
   dodger.style.left = 360 px ;
 }
-if(right > 180) {
+if(left < 360) {
   dodger.style.right = `${right + 1}px`;
 }
 document.addEventListener("keydown", function(e) {

@@ -32,6 +32,7 @@ function moveDodgerRight() {
   let dodger = document.getElementById("dodger");
   let rightNumber = dodger.style.right.replace("px", "");
   let right = parseInt(rightNumber, 10);
+  dodger.style.left = 360 px ;
 }
 if(right > 180) {
   dodger.style.right = `${right + 1}px`;
